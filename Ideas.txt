@@ -1,0 +1,10 @@
+Goals for this project: 
+
+    1. Create the game "L-Game" 
+    2. Create an algorithm for the best solution
+    3. Develop an AI that can play the game. 
+    4. Create an online version fo the game to play. 
+        a. Should this be web based?
+        b. How do we want to 
+
+    Any other ideas? 
