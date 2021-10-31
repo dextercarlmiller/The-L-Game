@@ -7,20 +7,19 @@ go get fyne.io/fyne
 Then compile and run
 */
 import (
-	"fyne.io/fyne/app"
-	"fyne.io/fyne/widget"
+	"fyne.io/fyne/app";
+	"fyne.io/fyne/widget";
 	"fmt"
-}
+)
 
 func main() {
 	fmt.Println("Hello, World!")
-	a := app.New()
+	app := app.New()
 
-	w := a.NewWindows("Hello World")
-	w.Setcontent(widget.NewVBox(
+	w := app.NewWindow("Hello World")
+	w.SetContent(widget.NewVBox(
 		widget.NewLabel("Hello World"),
-		widget.NewButton("Quit", func(){a.Quit()
-		}),
+		widget.NewButton("Quit", func(){app.Quit()}),
 	))
 w.ShowAndRun()
 }
