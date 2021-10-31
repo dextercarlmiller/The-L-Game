@@ -1,11 +1,15 @@
-package main
+
 /*
 For this app to run you need to install fyne.io/fyne
-This can be done with the below command
+This can be done with the below command: 
+
 go get fyne.io/fyne
 
 Then compile and run
 */
+
+package main
+
 import (
 	"fyne.io/fyne/app";
 	"fyne.io/fyne/widget";
